@@ -1,0 +1,32 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Local deployment data
+deployments/
+
+# Coverage and gas reports
+coverage/
+lcov.info
+gas-report.txt
+
+# Local tooling
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+# Local development dependencies
+/lib/
+/.vscode/
